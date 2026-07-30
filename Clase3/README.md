@@ -19,7 +19,7 @@
 
 4. Inserta el módulo en el kernel:
     ```bash
-    sudo insmod teclado_virtual.ko
+    sudo insmod teclado.ko
     ```
 
 5. Verifica que el módulo esté cargado:
@@ -41,7 +41,7 @@
 
 7. Para remover el módulo:
     ```bash
-    sudo rmmod teclado_virtual.ko
+    sudo rmmod teclado.ko
     ```
 
 8. Limpia los archivos generados:
