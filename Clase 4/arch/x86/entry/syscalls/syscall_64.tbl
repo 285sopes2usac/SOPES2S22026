@@ -1,0 +1,10 @@
+# Fragmento representativo. Antes de agregar una syscall nueva, verifica
+# en tu arbol fuente cual es el numero libre real para no chocar con otra ABI.
+#
+# ... lineas finales de ejemplo ...
+458	common	set_mempolicy_home_node	sys_set_mempolicy_home_node
+459	common	cachestat			sys_cachestat
+460	common	fchmodat2			sys_fchmodat2
+461	common	map_shadow_stack		sys_map_shadow_stack
+462	common	futex_wake			sys_futex_wake
+463	common	get_process_info		sys_get_process_info
